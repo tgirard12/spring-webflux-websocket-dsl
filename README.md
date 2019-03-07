@@ -26,6 +26,6 @@ class WsConfig {
     }
     
     @Bean
-    fun handlerAdapter(): WebSocketHandlerAdapter = WebSocketHandlerAdapter()    
+    fun handlerAdapter() = WebSocketHandlerAdapter()    
 }
 ```

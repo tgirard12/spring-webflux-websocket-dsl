@@ -79,9 +79,7 @@ class WsConfig {
     fun routerWebSocket() = wsRouter
 
     @Bean
-    fun handlerAdapter(): WebSocketHandlerAdapter {
-        return WebSocketHandlerAdapter()
-    }
+    fun handlerAdapter() = WebSocketHandlerAdapter()
 
     @Bean
     fun handlerMapping(): HandlerMapping {
